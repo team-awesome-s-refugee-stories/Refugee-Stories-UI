@@ -129,30 +129,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-@font-face {
-  font-family: 'PT Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: local('PT Sans Italic'), local('PTSans-Italic'), url(https://fonts.gstatic.com/s/ptsans/v9/jizYRExUiTo99u79D0e0x8mN.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'PT Sans';
-  font-style: italic;
-  font-weight: 700;
-  src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url(https://fonts.gstatic.com/s/ptsans/v9/jizdRExUiTo99u79D0e8fOydLxUY.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v9/jizaRExUiTo99u79D0KEwA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v9/jizfRExUiTo99u79B_mh0O6tKA.ttf) format('truetype');
-}
 * {
   box-sizing: border-box;
 }
@@ -176,4 +152,26 @@ body {
   flex-direction: columns;
   padding: 100px;
   text-align: left;
+  background-image: url(/assets/rfcrisis.jpg);
+  font-size: 10000px;
+}
+h1 {
+  font-size: 3px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+}
+p {
+  font-size: 100px;
+}
+a {
+  padding: 0 0 13px 13px;
+  width: 100%;
+}
+.top-contents {
+  text-align: center;
+  margin-bottom: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
