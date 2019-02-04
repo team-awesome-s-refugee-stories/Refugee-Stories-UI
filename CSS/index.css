@@ -137,42 +137,13 @@ body {
   margin: 0;
   padding: 0;
 }
-body {
-  display: flex;
-  justify-content: none;
-  align-items: center;
-  flex-direction: column;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 2rem;
-}
-.banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: columns;
-  padding: 2rem 1rem 3rem 3rem;
-  text-align: center;
-  background-image: url(/assets/rfcrisis.jpg);
-  background-position: left center;
-}
 h1 {
-  font-size: 3px;
-  margin-top: 3px;
-  margin-bottom: 2px;
+  font-size: 4rem;
+  line-height: 1.2;
 }
-p {
-  font-size: 3rem;
-  line-height: 3rem;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
-}
-a {
-  padding-top: 10px;
-  padding-bottom: 15px;
-  width: 100%;
-  margin-bottom: 10px;
-  text-decoration: none;
-  border-radius: 7px;
+.words {
+  font-size: 1.25rem;
+  margin: 0 0 2rem 0;
 }
 .top-contents {
   text-align: center;
@@ -183,10 +154,7 @@ a {
   flex-direction: column;
 }
 img {
-  width: 100%;
-}
-p {
-  font-size: 2rem;
-  line-height: 3rem;
-  margin-bottom: 2rem;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
 }
