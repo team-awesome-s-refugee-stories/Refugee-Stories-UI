@@ -23,6 +23,8 @@ nav {
     justify-content: space-between;
     background-color: pink;
     align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
     a,
     .nav-left a {
         text-decoration: none;
@@ -36,30 +38,51 @@ nav {
 
 .banner {
     display: flex;
-    padding: 7rem 7rem 5rem 7rem;
+    padding: 0rem 0rem 0rem 7rem;
     max-width: 100%;
-}
+    p {
+        padding-right: 4rem;
+        padding-bottom: 4rem;
+      
+      }
+      @media @phone {
+        flex-direction: column;
+      }
+    }
+
+
+
 h1 {
     font-size: 4rem;
     line-height: 1.2;
+    padding-top: 6rem;
+    padding-bottom: 2.5rem;
 }
+
 .words {
-    font-size: 1.25rem;
+    font-size: 2rem;
     margin: 0 0 2rem 0;
 }
+
 .top-contents {
     text-align: center;
     margin-bottom: 13px;
     .flex(center, center, column);
 }
 
-
-
 // <img class="img-pic">
 .img-pic {
-    top: 0;
-    left: 0;
     width: 100%;
     border-radius: 0;
 }
-.primary-button {}
+
+.primary-button {
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+    font-size: 25px;
+    border: 2px solid black;
+    padding: 9px 15px; //padding: 10px 14px
+    //         TB    RL
+    //border: size type color
+}

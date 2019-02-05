@@ -142,6 +142,8 @@ nav {
   justify-content: space-between;
   background-color: pink;
   align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 nav a,
 nav .nav-left a {
@@ -154,15 +156,26 @@ nav .nav-left a {
 }
 .banner {
   display: flex;
-  padding: 7rem 7rem 5rem 7rem;
+  padding: 0rem 0rem 0rem 7rem;
   max-width: 100%;
+}
+.banner p {
+  padding-right: 4rem;
+  padding-bottom: 4rem;
+}
+@media (max-width 500px) {
+  .banner {
+    flex-direction: column;
+  }
 }
 h1 {
   font-size: 4rem;
   line-height: 1.2;
+  padding-top: 6rem;
+  padding-bottom: 2.5rem;
 }
 .words {
-  font-size: 1.25rem;
+  font-size: 2rem;
   margin: 0 0 2rem 0;
 }
 .top-contents {
@@ -174,8 +187,14 @@ h1 {
   flex-direction: column;
 }
 .img-pic {
-  top: 0;
-  left: 0;
   width: 100%;
   border-radius: 0;
+}
+.primary-button {
+  text-decoration: none;
+  color: black;
+  border-radius: 12px;
+  font-size: 25px;
+  border: 2px solid black;
+  padding: 9px 15px;
 }
