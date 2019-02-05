@@ -139,13 +139,9 @@ body {
 }
 .banner {
   display: flex;
-  flex-grow: 1;
   padding: 7rem 7rem 5rem 7rem;
   align-self: center;
   max-width: 50%;
-  margin: 0 auto;
-  flex-shrink: 1;
-  max-width: 48;
 }
 h1 {
   font-size: 4rem;
