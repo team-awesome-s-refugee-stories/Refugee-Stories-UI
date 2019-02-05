@@ -145,6 +145,11 @@ nav {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+@media (max-width: 500px) {
+  nav {
+    display: none;
+  }
+}
 nav a,
 nav .nav-left a {
   text-decoration: none;
@@ -163,9 +168,16 @@ nav .nav-left a {
   padding-right: 4rem;
   padding-bottom: 4rem;
 }
-@media (max-width 500px) {
+@media (max-width: 500px) {
+  .banner p {
+    padding: 0;
+  }
+}
+@media (max-width: 500px) {
   .banner {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    padding: 10px;
+    text-align: center;
   }
 }
 h1 {
@@ -177,6 +189,11 @@ h1 {
 .words {
   font-size: 2rem;
   margin: 0 0 2rem 0;
+}
+@media (max-width: 500px) {
+  .words {
+    text-align: center;
+  }
 }
 .top-contents {
   text-align: center;
