@@ -137,6 +137,16 @@ body {
   margin: 0;
   padding: 0;
 }
+.banner {
+  display: flex;
+  flex-grow: 1;
+  padding: 7rem 7rem 5rem 7rem;
+  align-self: center;
+  max-width: 50%;
+  margin: 0 auto;
+  flex-shrink: 1;
+  max-width: 48;
+}
 h1 {
   font-size: 4rem;
   line-height: 1.2;
@@ -154,7 +164,8 @@ h1 {
   flex-direction: column;
 }
 img {
-  width: 50%;
-  display: flex;
-  justify-content: flex-end;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 0;
 }
