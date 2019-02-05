@@ -190,6 +190,7 @@ nav .nav-left a {
 @media (max-width: 500px) {
   .banner {
     flex-direction: column-reverse;
+    padding-left: 0;
     text-align: center;
   }
 }
