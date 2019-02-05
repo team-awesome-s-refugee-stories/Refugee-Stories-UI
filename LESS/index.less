@@ -1,64 +1,65 @@
-@import './variables';
-@import './mixins';
-@import './reset.less';
+@import "./variables";
+@import "./mixins";
+@import "./reset.less";
 //@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic,900');
 * {
     box-sizing: border-box;
 }
 
-html{
-  font-size: 62.5%
+html {
+    font-size: 62.5%;
 }
-
 
 html,
 body {
     margin: 0;
     padding: 0;
-    
 }
 
-body {
+body {}
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    align-items: center;
+    a,
+    .nav-left a {
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        font-size: 2rem;
+        border-radius: 10px;
+        padding: 5px 15px 5px 15px;
+    }
 }
 
 .banner {
-
-  display: flex;
-  
-  padding: 7rem 7rem 5rem 7rem;
-  align-self: center;
-  max-width: 50%;
-  
+    display: flex;
+    padding: 7rem 7rem 5rem 7rem;
+    max-width: 100%;
 }
-
 h1 {
- font-size: 4rem;
- line-height: 1.2;
+    font-size: 4rem;
+    line-height: 1.2;
 }
-
 .words {
-  font-size: 1.25rem;
-  margin: 0 0 2rem 0;
-
-
+    font-size: 1.25rem;
+    margin: 0 0 2rem 0;
 }
-
 .top-contents {
     text-align: center;
     margin-bottom: 13px;
     .flex(center, center, column);
 }
 
- img {
-  top: 0;
-  left: 0;
-  width: 100%;
-  
-  border-radius: 0;
-    
- }
 
- .primary-button{
 
- }
+// <img class="img-pic">
+.img-pic {
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+}
+.primary-button {}

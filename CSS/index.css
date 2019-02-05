@@ -137,11 +137,25 @@ body {
   margin: 0;
   padding: 0;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+  align-items: center;
+}
+nav a,
+nav .nav-left a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding: 5px 15px 5px 15px;
+}
 .banner {
   display: flex;
   padding: 7rem 7rem 5rem 7rem;
-  align-self: center;
-  max-width: 50%;
+  max-width: 100%;
 }
 h1 {
   font-size: 4rem;
@@ -159,7 +173,7 @@ h1 {
   align-items: center;
   flex-direction: column;
 }
-img {
+.img-pic {
   top: 0;
   left: 0;
   width: 100%;
