@@ -163,6 +163,7 @@ nav {
   nav {
     display: none;
     flex-direction: column;
+    text-align: center;
   }
 }
 nav a,
@@ -236,9 +237,11 @@ h1 {
   border: 2px solid black;
   padding: 9px 15px;
 }
-.menu-hidden {
-  display: none;
-}
-.menu-shown {
-  display: block;
+@media (max-width: 500px) {
+  .menu-hidden {
+    display: none;
+  }
+  .menu-shown {
+    display: flex;
+  }
 }

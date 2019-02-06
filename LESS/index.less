@@ -2,7 +2,6 @@
 @import "./mixins";
 @import "./reset.less";
 @import "../components/Menubutton.less";
-
 //@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic,900');
 * {
     box-sizing: border-box;
@@ -18,7 +17,8 @@ body {
     padding: 0;
 }
 
-body {}
+body {
+}
 
 nav {
     display: flex;
@@ -28,8 +28,9 @@ nav {
     padding-top: 5px;
     padding-bottom: 5px;
     @media @phone {
-        display: none; 
+        display: none;
         flex-direction: column;
+        text-align: center;
     }
     a,
     .nav-left a {
@@ -40,7 +41,6 @@ nav {
         border-radius: 10px;
         padding: 5px 15px 5px 15px;
     }
-
     .nav-left {
         @media @phone {
             display: flex;
@@ -57,15 +57,14 @@ nav {
         padding-right: 4rem;
         padding-bottom: 4rem;
         @media @phone {
-          padding: 0;
+            padding: 0;
         }
     }
     @media @phone {
-        flex-direction: column-reverse;
-        // padding: 10px;
+        flex-direction: column-reverse; // padding: 10px;
         padding-left: 0;
         text-align: center;
-      }   
+    }
 }
 
 h1 {
@@ -77,10 +76,9 @@ h1 {
 
 .words {
     font-size: 2rem;
-    margin: 0 0 2rem 0; 
+    margin: 0 0 2rem 0;
     @media @phone {
-      text-align: center;
-      
+        text-align: center;
     }
 }
 
@@ -95,7 +93,8 @@ h1 {
     width: 100%;
     border-radius: 0;
 }
-/// Button Area 
+
+/// Button Area
 .primary-button {
     text-decoration: none;
     color: black;
@@ -105,13 +104,16 @@ h1 {
     padding: 9px 15px; //padding: 10px 14px
     //         TB    RL
     //border: size type color
+}
+
+@media @phone {
+    .menu-hidden {
+        display: none;
+    }
     
-  }
+    .menu-shown {
+        display: flex;
+    }
 
-  .menu-hidden {
-    display: none;
-  }
 
-  .menu-shown {
-      display: block;
-  }
+}
