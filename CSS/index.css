@@ -181,6 +181,7 @@ nav .nav-left a {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
+    margin-top: 10%;
   }
 }
 @media (max-width: 500px) {
@@ -288,8 +289,13 @@ h1 {
     display: flex;
     position: absolute;
     top: 30%;
-    left: 30%;
-    padding: 10%;
+    left: 10%;
+    padding: 1%;
     background-color: white;
+  }
+}
+@media (max-width: 500px) and (max-width: 500px) {
+  .admin {
+    margin-top: 50%;
   }
 }
