@@ -26,12 +26,10 @@ class Menubutton {
         }
     }
 }
-
-// 
+// Menu Button Obeject Here
 
 let menuButton = new Menubutton(document.querySelector(".menu-button"));
 
 
- 
-
 Array.from(document.querySelectorAll("nav a")).forEach(menuButtons => menuButtons.style.backgroundColor ='white');
+    
