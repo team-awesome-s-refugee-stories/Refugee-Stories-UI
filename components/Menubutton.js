@@ -3,6 +3,7 @@ class Menubutton {
         // console.log(element);
 
         this.button = element;
+        
 
         this.shown = false;
 
@@ -14,7 +15,7 @@ class Menubutton {
     }
 
     toggleContent() {
-        // Toggle the ".menu-hidden" class off and on
+        
         if (this.shown) {
             this.nav.classList.add("menu-hidden");
             this.nav.classList.remove("menu-shown");
